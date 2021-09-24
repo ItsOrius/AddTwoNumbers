@@ -17,6 +17,11 @@ function runGameLoop() {
         let num1 = prompt("Please enter your first number!");
         if (!parseFloat(num1)) {
 
+            if (num1.toLowerCase().includes("fuck you")) {
+                alert("Well fuck you too, buddy!");
+                return endGame("Malding");
+            }
+
             num1 = prompt("Sorry to break it to you, but I can only handle decimal numbers.\nPlease enter a **VALID** number this time!")
             if (!parseFloat(num1)) {
                 alert("Alright, alright. That's enough. Goodbye.");
@@ -28,6 +33,11 @@ function runGameLoop() {
         // runs checks for the second input
         let num2 = prompt("Please enter your second number!");
         if (!parseFloat(num2)) {
+
+            if (num2.toLowerCase().includes("fuck you")) {
+                alert("Well fuck you too, buddy!");
+                return endGame("Malding");
+            }
 
             num2 = prompt("Sorry to break it to you, but I can only handle decimal numbers.\nPlease enter a **VALID** number this time!")
             if (!parseFloat(num2)) {
