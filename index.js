@@ -68,6 +68,10 @@ function runGameLoop() {
             alert(`FINALLY. The result is ${num1+num2}.\nTry harder next time!`);
             return endGame("Redemption");
         } else {
+            if (num1==9 && num2==10) {
+                alert(`The result is 21-\nWait, no. I meant 19.\nI don't know what happened there, but thank you for visiting!`);
+                return endGame("Meme");
+            }
             alert(`The result is ${num1+num2}.\nThank you for visiting!`);
             return endGame("Good");
         }
