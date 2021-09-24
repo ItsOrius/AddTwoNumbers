@@ -84,4 +84,8 @@ function endGame(ending = "") {
 
 
 // start the game for the first time
-runGameLoop();
+try {
+    runGameLoop();
+} catch(e) {
+    endGame(`<a title=\"${e}\">Unknown Error</a>`)
+}
