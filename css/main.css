@@ -1,0 +1,23 @@
+header, footer {
+    font-family: monospace;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #555555;
+    color: #aaa;
+    font-size: x-large;
+}
+
+main {
+    font-family: monospace;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    text-align: center;
+    background-color: black;
+    color: green;
+    font-size: xx-large;
+}
+
+footer a {
+    color: #aaa;
+}
