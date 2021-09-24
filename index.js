@@ -65,7 +65,7 @@ function runGameLoop() {
 
         // runs if no special endings happened
         if (ai.anger > 1) {
-            alert(`FINALLY. Your result is ${num1+num2}.\nTry harder next time!`);
+            alert(`FINALLY. The result is ${num1+num2}.\nTry harder next time!`);
             return endGame("Redemption");
         } else {
             alert(`The result is ${num1+num2}.\nThank you for visiting!`);
